@@ -15,13 +15,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -32,19 +32,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -71,7 +71,7 @@
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -103,27 +103,27 @@
 </layers>
 <board>
 <plain>
-<text x="7.62" y="23.368" size="1.016" layer="21" font="vector" ratio="16">Eyewriter 2.1</text>
-<text x="35.052" y="23.368" size="0.9144" layer="21" font="vector" ratio="12">Glint board</text>
-<wire x1="17.78" y1="21.844" x2="18.542" y2="22.606" width="0.8128" layer="21"/>
-<wire x1="18.542" y1="22.606" x2="20.828" y2="24.892" width="0.8128" layer="21"/>
-<wire x1="35.052" y1="21.844" x2="32.258" y2="24.892" width="0.8128" layer="21"/>
-<wire x1="17.78" y1="21.844" x2="9.144" y2="21.844" width="0.8128" layer="21"/>
-<wire x1="9.144" y1="21.844" x2="6.35" y2="19.05" width="0.8128" layer="21"/>
-<wire x1="35.052" y1="21.844" x2="41.656" y2="21.844" width="0.8128" layer="21"/>
-<wire x1="41.656" y1="21.844" x2="44.45" y2="19.05" width="0.8128" layer="21"/>
-<wire x1="34.544" y1="22.606" x2="41.91" y2="22.606" width="0.254" layer="21"/>
-<wire x1="41.91" y1="22.606" x2="43.688" y2="20.828" width="0.254" layer="21"/>
-<wire x1="18.542" y1="22.606" x2="8.89" y2="22.606" width="0.254" layer="21"/>
-<wire x1="8.89" y1="22.606" x2="7.112" y2="20.828" width="0.254" layer="21"/>
-<wire x1="7.62" y1="6.858" x2="11.938" y2="2.54" width="0.8128" layer="21"/>
-<wire x1="11.938" y1="2.54" x2="19.812" y2="2.54" width="0.8128" layer="21"/>
-<wire x1="43.688" y1="6.858" x2="39.37" y2="2.54" width="0.8128" layer="21"/>
-<wire x1="39.37" y1="2.54" x2="33.528" y2="2.54" width="0.8128" layer="21"/>
-<text x="12.192" y="0.762" size="1.016" layer="21" font="vector" ratio="16">OSHW</text>
-<text x="25.4" y="4.572" size="0.889" layer="22" font="vector" ratio="10" rot="MR0" align="center">Designed by Jason Webb - http://jason-webb.info</text>
-<text x="42.164" y="12.192" size="1.27" layer="22" font="vector" ratio="16" rot="MR0">Eyewrtier 2.1</text>
-<text x="21.082" y="12.446" size="1.27" layer="22" font="vector" ratio="16" rot="MR0">Glint board</text>
+<text x="7.62" y="23.368" size="1.016" layer="51" font="vector" ratio="16">Eyewriter 2.1</text>
+<text x="35.052" y="23.368" size="0.9144" layer="51" font="vector" ratio="12">Glint board</text>
+<wire x1="17.78" y1="21.844" x2="18.542" y2="22.606" width="0.8128" layer="51"/>
+<wire x1="18.542" y1="22.606" x2="20.828" y2="24.892" width="0.8128" layer="51"/>
+<wire x1="35.052" y1="21.844" x2="32.258" y2="24.892" width="0.8128" layer="51"/>
+<wire x1="17.78" y1="21.844" x2="9.144" y2="21.844" width="0.8128" layer="51"/>
+<wire x1="9.144" y1="21.844" x2="6.35" y2="19.05" width="0.8128" layer="51"/>
+<wire x1="35.052" y1="21.844" x2="41.656" y2="21.844" width="0.8128" layer="51"/>
+<wire x1="41.656" y1="21.844" x2="44.45" y2="19.05" width="0.8128" layer="51"/>
+<wire x1="34.544" y1="22.606" x2="41.91" y2="22.606" width="0.254" layer="51"/>
+<wire x1="41.91" y1="22.606" x2="43.688" y2="20.828" width="0.254" layer="51"/>
+<wire x1="18.542" y1="22.606" x2="8.89" y2="22.606" width="0.254" layer="51"/>
+<wire x1="8.89" y1="22.606" x2="7.112" y2="20.828" width="0.254" layer="51"/>
+<wire x1="7.62" y1="6.858" x2="11.938" y2="2.54" width="0.8128" layer="51"/>
+<wire x1="11.938" y1="2.54" x2="19.812" y2="2.54" width="0.8128" layer="51"/>
+<wire x1="43.688" y1="6.858" x2="39.37" y2="2.54" width="0.8128" layer="51"/>
+<wire x1="39.37" y1="2.54" x2="33.528" y2="2.54" width="0.8128" layer="51"/>
+<text x="12.192" y="0.762" size="1.016" layer="51" font="vector" ratio="16">OSHW</text>
+<text x="43.18" y="4.064" size="0.889" layer="52" font="vector" ratio="10" rot="MR0">Designed by Jason Webb (http://jason-webb.info)</text>
+<text x="42.164" y="12.192" size="1.27" layer="52" font="vector" ratio="16" rot="MR0">Eyewrtier 2.1</text>
+<text x="21.082" y="12.446" size="1.27" layer="52" font="vector" ratio="16" rot="MR0">Glint board</text>
 <wire x1="3.81" y1="0" x2="46.99" y2="0" width="0" layer="20"/>
 <wire x1="46.99" y1="0" x2="50.8" y2="3.81" width="0" layer="20" curve="90"/>
 <wire x1="50.8" y1="3.81" x2="50.8" y2="21.59" width="0" layer="20"/>
@@ -132,7 +132,6 @@
 <wire x1="3.81" y1="25.4" x2="0" y2="21.59" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="21.59" x2="0" y2="3.81" width="0" layer="20"/>
 <wire x1="0" y1="3.81" x2="3.81" y2="0" width="0" layer="20" curve="90"/>
-<text x="34.544" y="0.762" size="0.9144" layer="21" font="vector" ratio="12">Rev A</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
