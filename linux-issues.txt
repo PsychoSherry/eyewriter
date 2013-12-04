@@ -1,0 +1,24 @@
+unable to find:
+../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp
+
+Should be:
+../../../libs/openFrameworksCompiled/project/linux/libopenFrameworks.cbp
+
+
+Dependency mentioned in files:
+../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib
+
+What I propose:
+../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworks.a
+or
+../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworksDebug.a
+(because no libs in that folder)
+
+
+
+
+
+Check Postbuild steps
+from win eye:
+xcopy /e /i /y "$(PROJECT_DIR)..\..\..\export\win_cb\*.dll"  "$(PROJECT_DIR)bin"
+cmd /c if not exist "$(PROJECT_DIR)bin/data" mkdir "$(PROJECT_DIR)bin/data"
